@@ -6,8 +6,8 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.3.4</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
+		<relativePath/> 
+    </parent>
 	<groupId>com.example</groupId>
 	<artifactId>ofs</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -31,9 +31,9 @@
 	</properties>
 	<dependencies>
 	<dependency>
-    <groupId>org.postgresql</groupId>
-    <artifactId>postgresql</artifactId>
-		  <version>42.7.4</version>
+  <groupId>org.postgresql</groupId>
+  <artifactId>postgresql</artifactId>
+  <version>42.7.4</version>
 </dependency>
 		<dependency>
   <groupId>io.jsonwebtoken</groupId>

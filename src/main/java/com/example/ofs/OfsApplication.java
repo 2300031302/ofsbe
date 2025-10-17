@@ -9,6 +9,7 @@ public class OfsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(OfsApplication.class, args);
 		System.out.println("ruuning suscesdully");
+//		System.out.println(" ");
 	}
 
 }
